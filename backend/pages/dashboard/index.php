@@ -31,7 +31,7 @@
                 <div class="card bg-gradient-primary text-white mb-4 shadow-lg border-0" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
                   <div class="card-body d-flex justify-content-between align-items-center">
                     <div>
-                      <h4 class="fw-bold mb-1">Selamat Datang di Dashboard Pembayaran ⚡hallo gantengggg</h4>
+                      <h4 class="fw-bold mb-1">Selamat Datang di Dashboard Pembayaran ⚡hallo cowokkkk</h4>
                       <p class="mb-0">Kelola pelanggan, tagihan, dan verifikasi pembayaran dengan mudah.</p>
                       <div class="mt-3">
                         <span class="badge bg-white text-primary me-2">Admin Panel</span>
