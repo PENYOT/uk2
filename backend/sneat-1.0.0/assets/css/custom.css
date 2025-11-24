@@ -1,0 +1,19 @@
+/* Navbar tetap di atas layar */
+#layout-navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  width: 100%;
+}
+
+/* Supaya konten tidak tertutup navbar */
+.layout-page {
+  padding-top: 80px; /* sesuaikan jika navbar lebih tinggi */
+}
+
+/* Kalau sidebar ikut nabrak atau geser, tambahkan ini */
+.layout-menu {
+  margin-top: 80px; /* samakan tinggi dengan navbar */
+}

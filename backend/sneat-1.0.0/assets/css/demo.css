@@ -1,0 +1,34 @@
+/* ==== Perbaikan Tampilan Logo Sidebar ==== */
+.app-brand.demo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  height: 70px; /* tinggi area logo */
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.app-brand-logo.demo img {
+  width: 45px; /* ukuran logo */
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.app-brand-text.demo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: -0.3px;
+  color: #333;
+}
+
+/* Jika ingin logo di tengah sidebar saat menu disembunyikan (responsive) */
+.layout-menu-collapsed .app-brand.demo {
+  justify-content: center;
+}
+
+.layout-menu-collapsed .app-brand-text.demo {
+  display: none;
+}
